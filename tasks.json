@@ -1,0 +1,302 @@
+[
+    {
+        "name": "Create User Stories",
+        "assignees": [
+            "Rishi Jain"
+        ],
+        "status": "Closed",
+        "due_date": "2026-02-22",
+        "features": [
+            "Research"
+        ],
+        "estimation": 2,
+        "priority": "P1 - High"
+    },
+    {
+        "name": "Niche Selection",
+        "assignees": [
+            "Rishi Jain",
+            "Anshu Raj",
+            "Shrinidhi Kumar",
+            "Rahul Shambhwani"
+        ],
+        "status": "Closed",
+        "due_date": "2026-02-10",
+        "features": [
+            "Research"
+        ],
+        "estimation": 2,
+        "priority": "P1 - High"
+    },
+    {
+        "name": "Notion Board Creation",
+        "assignees": [
+            "Shrinidhi Kumar"
+        ],
+        "status": "Closed",
+        "due_date": "2026-02-05",
+        "features": [
+            "Administration"
+        ],
+        "estimation": 0.1,
+        "priority": "P1 - High"
+    },
+    {
+        "name": "Create team ",
+        "assignees": [
+            "Rahul Shambhwani"
+        ],
+        "status": "Closed",
+        "due_date": "2026-02-05",
+        "features": [
+            "Administration"
+        ],
+        "estimation": 0.1,
+        "priority": "P0 - Very High"
+    },
+    {
+        "name": "Create profiles",
+        "assignees": [
+            "Shrinidhi Kumar",
+            "Anshu Raj",
+            "Rishi Jain",
+            "Rahul Shambhwani"
+        ],
+        "status": "Closed",
+        "due_date": "2026-02-05",
+        "features": [
+            "Administration"
+        ],
+        "estimation": 0.1,
+        "priority": "P0 - Very High"
+    },
+    {
+        "name": "Django backend scaffolding",
+        "assignees": [
+            "Shrinidhi Kumar",
+            "Anshu Raj"
+        ],
+        "status": "Closed",
+        "due_date": "2026-03-03",
+        "features": [
+            "backend"
+        ],
+        "estimation": 0.5,
+        "priority": "P1 - High"
+    },
+    {
+        "name": "React Frontend Scaffolding",
+        "assignees": [
+            "Rishi Jain",
+            "Rahul Shambhwani"
+        ],
+        "status": "Closed",
+        "due_date": "2026-03-05",
+        "features": [
+            "frontend"
+        ],
+        "estimation": 2,
+        "priority": "P1 - High"
+    },
+    {
+        "name": "Create postgres and NeonDB integration",
+        "assignees": [
+            "Shrinidhi Kumar",
+            "Anshu Raj"
+        ],
+        "status": "Closed",
+        "due_date": "2026-03-03",
+        "features": [
+            "backend"
+        ],
+        "estimation": 0.6,
+        "priority": "P1 - High"
+    },
+    {
+        "name": "[frontend] Scaffold KDS Module",
+        "assignees": [
+            "Rahul Shambhwani"
+        ],
+        "status": "Not started",
+        "due_date": "2026-03-18",
+        "features": [
+            "frontend"
+        ],
+        "estimation": 15,
+        "priority": "P2  - Medium"
+    },
+    {
+        "name": "Backend KDS Module",
+        "assignees": [
+            "Shrinidhi Kumar",
+            "Anshu Raj"
+        ],
+        "status": "Not started",
+        "due_date": "2026-03-20",
+        "features": [
+            "backend"
+        ],
+        "estimation": 0.5,
+        "priority": "P2  - Medium"
+    },
+    {
+        "name": "Backend POS Module",
+        "assignees": [
+            "Shrinidhi Kumar",
+            "Anshu Raj"
+        ],
+        "status": "In progress",
+        "due_date": "2026-03-20",
+        "features": [
+            "backend"
+        ],
+        "estimation": 0.5,
+        "priority": "P0 - Very High"
+    },
+    {
+        "name": "[frontend] Scaffold RBAC Module",
+        "assignees": [
+            "Rahul Shambhwani",
+            "Rishi Jain"
+        ],
+        "status": "In progress",
+        "due_date": "2026-03-18",
+        "features": [
+            "frontend"
+        ],
+        "estimation": 1,
+        "priority": "P0 - Very High"
+    },
+    {
+        "name": "Rename model classes",
+        "assignees": [
+            "Shrinidhi Kumar",
+            "Anshu Raj"
+        ],
+        "status": "Cancelled",
+        "due_date": "2026-03-07",
+        "features": [
+            "backend"
+        ],
+        "estimation": 0.2,
+        "priority": "P0 - Very High"
+    },
+    {
+        "name": "Backend RBAC Module",
+        "assignees": [
+            "Shrinidhi Kumar",
+            "Anshu Raj"
+        ],
+        "status": "To Validate",
+        "due_date": "2026-03-20",
+        "features": [
+            "backend"
+        ],
+        "estimation": 0.5,
+        "priority": "P2  - Medium"
+    },
+    {
+        "name": "[frontend] Scaffold POS Module",
+        "assignees": [
+            "Rishi Jain"
+        ],
+        "status": "Closed",
+        "due_date": "2026-03-20",
+        "features": [
+            "frontend"
+        ],
+        "estimation": 2,
+        "priority": "P2  - Medium"
+    },
+    {
+        "name": "Conduct Interviews",
+        "assignees": [
+            "Rishi Jain"
+        ],
+        "status": "Closed",
+        "due_date": "2026-02-22",
+        "features": [
+            "Research"
+        ],
+        "estimation": 5,
+        "priority": "P1 - High"
+    },
+    {
+        "name": "[frontend] Scaffold CRM Module",
+        "assignees": [
+            "Rishi Jain"
+        ],
+        "status": "In progress",
+        "due_date": "2026-03-18",
+        "features": [
+            "frontend"
+        ],
+        "estimation": 1,
+        "priority": "P0 - Very High"
+    },
+    {
+        "name": "[frontend] Refactoring Component Codebase",
+        "assignees": [
+            "Rishi Jain",
+            "Rahul Shambhwani"
+        ],
+        "status": "Not started",
+        "due_date": "",
+        "features": [
+            "frontend"
+        ],
+        "estimation": 40,
+        "priority": "P2  - Medium"
+    },
+    {
+        "name": "[frontend] Design System Creation & Refinement",
+        "assignees": [
+            "Rishi Jain",
+            "Rahul Shambhwani"
+        ],
+        "status": "Not started",
+        "due_date": "2026-03-20",
+        "features": [
+            "frontend"
+        ],
+        "estimation": 30,
+        "priority": "P0 - Very High"
+    },
+    {
+        "name": "[prodman] Functional Requirements",
+        "assignees": [],
+        "status": "Not started",
+        "due_date": "2026-03-22",
+        "features": [
+            "Research"
+        ],
+        "estimation": 30,
+        "priority": "P1 - High"
+    },
+    {
+        "name": "[frontend] Scaffold Inventory Module",
+        "assignees": [
+            "Rahul Shambhwani"
+        ],
+        "status": "Not started",
+        "due_date": "2026-03-18",
+        "features": [
+            "frontend"
+        ],
+        "estimation": 1,
+        "priority": "P0 - Very High"
+    },
+    {
+        "name": "[frontend] Scaffold Manager Dashboard",
+        "assignees": [
+            "Rishi Jain"
+        ],
+        "status": "In progress",
+        "due_date": "2026-03-18",
+        "features": [
+            "frontend"
+        ],
+        "estimation": 1,
+        "priority": "P0 - Very High"
+    }
+]
