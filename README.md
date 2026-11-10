@@ -1,17 +1,30 @@
 # Notion Sprint Automation
 
-A script that pulls sprints and tasks out of a team's Notion workspace and turns them into clean, structured data and a plain-text status report. It saves the manual work of copying sprint status out of Notion by hand.
+## Problem statement
 
-## What it does
+Project updates start with someone opening Notion, going through the sprint board and typing out who is working on what. The data is in Notion, but its API returns deeply nested properties that are awkward to read, so the status update gets written by hand every time.
 
-- Connects to Notion's API with the async client and reads the **Sprints** and **Tasks** databases.
-- Cleans Notion's deeply nested property format into simple records: name, status, assignees, due date, features, estimation and priority for tasks, and name, status, dates and linked tasks for sprints.
-- Fetches the tasks of each sprint concurrently with `asyncio`, which is much faster than one request at a time.
-- Groups sprints and tasks by status (for example Current, Past, Last for sprints; Not Started, In Progress, To Validate for tasks) and prints a report of who is working on what, ready to paste into an update.
+## Solution
+
+A script that reads the Sprints and Tasks databases through the Notion API, flattens the nested properties into clean records and prints a status report of tasks grouped by status with their assignees, ready to paste into an update.
 
 ## Tech stack
 
 Python, `notion-client` (async), `asyncio`, `python-dotenv`.
+
+## Features
+
+- Reads the Sprints and Tasks databases with Notion's async client
+- Cleans nested Notion properties into simple records: name, status, assignees, due date, features, estimation and priority for tasks; name, status, dates and linked tasks for sprints
+- Fetches the tasks of every sprint concurrently with `asyncio`, which is much faster than one request at a time
+- Groups sprints (Current, Past, Last) and tasks (Not Started, In Progress, To Validate) by status
+- Prints a plain-text report of who is working on what
+
+## Future steps
+
+- Post the report straight to Slack
+- Run it on a schedule
+- Flag overdue tasks and unassigned work
 
 ## Getting started
 
